@@ -3,6 +3,7 @@ A CLI tool to downsample (pare down, get it?) **paired-end** FASTQs written in R
 
 I couldn't find one that preserved read pairing in two FASTQ files for some reason, though I'm sure one exists. If you do find one, don't tell me, otherwise I'll feel like I wasted my time doing this.
 
+I just found out you can do the same thing with `seqtk` if you use the same random seed for both FASTQs...
 
 ## Installation
 
