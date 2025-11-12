@@ -14,9 +14,18 @@ cargo install --git https://github.com/quoctran98/pairdown.git
 
 ## Usage
 
+Run:
+
 ```
 pairdown read1.fq read2.fq 12000000 -o downsampled_ -s 1
 ```
+
+Output:
+
+```
+Downsampled 12000000 from 14887030 reads to downsampled_read1.fq and downsampled_read2.fq in 110 seconds.
+```
+
 
 This command takes in two paired-end FASTQ files (`read1.fq` and  `read2.fq`), randomly samples (without replacement, using a random seed `1`) 12,000,000 reads, then writes them to two output FASTQ files (`downsampled_read1.fq` and  `downsampled_read2.fq`).
 
