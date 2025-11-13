@@ -49,8 +49,8 @@ pairdown BC81_R1.fq BC81_R2.fq 10000000 -o ./temp/
 ```
 
 ```
-seqtk sample -s100 BC81_R1.fq 10000000 > temp/BC81_R1.fq
-seqtk sample -s100 BC81_R2.fq 10000000 > temp/BC81_R2.fq
+seqtk sample -s100 BC81_R1.fq 10000000 > ./temp/BC81_R1.fq
+seqtk sample -s100 BC81_R2.fq 10000000 > ./temp/BC81_R2.fq
 ```
 
 Time benchmarks were collected with [`hyperfine`](https://github.com/sharkdp/hyperfine) (with 3 warmup runs) and memory benchmarks were manually collected with `/usr/bin/time -l`. Results are avilable in the [`/bench/`] directory. Commands wrote to a temporary directory which was deleted after each run instead of writing to `/dev/null` to capture I/O overhead.
