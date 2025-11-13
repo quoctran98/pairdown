@@ -1,3 +1,4 @@
 /target
 *.fq
-.DS_STore
+.DS_Store
+temp.json

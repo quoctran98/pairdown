@@ -1,0 +1,11 @@
+reads,tool,mean_time,std_time
+"1000","pairdown BC81_R1.fq BC81_R2.fq 1000 -o ./temp/",5.096776771699999,0.15587361438349356
+"1000","../benchmark/seqtk/seqtk sample -s100 BC81_R1.fq 1000 > ./temp/s2_R1.fq; ../benchmark/seqtk/seqtk sample -s100 BC81_R2.fq 1000 > ./temp/s2_R2.fq",4.663968909099999,0.10901530815636681
+"10000","pairdown BC81_R1.fq BC81_R2.fq 10000 -o ./temp/",4.9474740624799995,0.14408836788910553
+"10000","../benchmark/seqtk/seqtk sample -s100 BC81_R1.fq 10000 > ./temp/s2_R1.fq; ../benchmark/seqtk/seqtk sample -s100 BC81_R2.fq 10000 > ./temp/s2_R2.fq",4.731707429279999,0.11484354130709397
+"100000","pairdown BC81_R1.fq BC81_R2.fq 100000 -o ./temp/",4.915118811759999,0.04078517397780211
+"100000","../benchmark/seqtk/seqtk sample -s100 BC81_R1.fq 100000 > ./temp/s2_R1.fq; ../benchmark/seqtk/seqtk sample -s100 BC81_R2.fq 100000 > ./temp/s2_R2.fq",5.06932214506,0.14103565073570795
+"1000000","pairdown BC81_R1.fq BC81_R2.fq 1000000 -o ./temp/",5.422066704320001,0.48632695000719073
+"1000000","../benchmark/seqtk/seqtk sample -s100 BC81_R1.fq 1000000 > ./temp/s2_R1.fq; ../benchmark/seqtk/seqtk sample -s100 BC81_R2.fq 1000000 > ./temp/s2_R2.fq",7.76392574572,0.1373017796182437
+"10000000","pairdown BC81_R1.fq BC81_R2.fq 10000000 -o ./temp/",7.468158717500001,0.36163873424130366
+"10000000","../benchmark/seqtk/seqtk sample -s100 BC81_R1.fq 10000000 > ./temp/s2_R1.fq; ../benchmark/seqtk/seqtk sample -s100 BC81_R2.fq 10000000 > ./temp/s2_R2.fq",111.02723327989997,12.982437892083057
